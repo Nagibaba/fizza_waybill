@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+@media print {
+	body {-webkit-print-color-adjust: exact;}
+}
+
+*{
+	box-sizing: border-box;
+}
+body, div, table{
+	margin: 0;
+	padding: 0
+}
+
+html, body {
+	width: 100%;
+	/*min-height: 100vh;*/
+}
+
+
+.col-6{
+	float: left;
+	width: 50%;
+	
+}
+.col-12{
+	float: left;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.align-right{
+	text-align: right
+}
+.align-center{
+	text-align: center
+}
+.logo{
+	margin: 10px 20px
+}
+
+.ml1{
+	margin-left: 10px;
+	
+}
+.mt2{
+	margin-top: 20px
+}
+.px1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pl1{
+	padding-left: 10px;
+}
+.pr1{
+	padding-right: 10px;
+}
+.slim{
+	font-weight: normal;
+}
+
+.flex-grow-1{
+	display: flex;
+	flex-grow: 1
+}
+
+table {
+  font-family: arial, sans-serif;
+  /*border-collapse: collapse;*/
+  width: 100%;
+  table-layout: fixed
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 12px
+}
+
+th{
+	background-color: #3A3A3A;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(even) td:nth-child(odd){
+  border-right: 1px solid #ffffff;
+}
+tr td:nth-child(3){
+	margin-left: 20px
+}
+</style>
+</head>
+<body>
+
+	<div class="align-right">
+		<img src="./logo.svg" alt="" class="logo" style="width: 200px; height: 92px">
+	</div>
+
+	<div class="ml1">
+		<h1 class="slim">WAYBILL</h1>
+	</div>
+
+
+	<div class="col-6 px1">
+		<table>
+		  <tr>
+		    <th colspan="2">Sender Contact</th>
+		    
+		  </tr>
+		  <tr>
+		    <td>Payer Account Number</td>
+		    <td>111671</td>
+		  </tr>
+		  <tr>
+		    <td>From</td>
+		    <td>ebay.com</td>
+		  </tr>
+		  <tr>
+		    <td>Shipper</td>
+		    <td>Elvin Babayev</td>
+		  </tr>
+		  <tr>
+		    <td>Address</td>
+		    <td>California</td>
+		  </tr>
+		  <tr>
+		    <td>Postcode/ ZIP Code</td>
+		    <td>119 USA</td>
+		  </tr>
+		  <tr>
+		    <td>Phone,fax or Email</td>
+		    <td>119 USA</td>
+		  </tr>
+		</table>
+	</div>
+
+
+	<div class="col-6 px1">
+		<table>
+		  <tr>
+		    <th colspan="2">Consignee Contact</th>
+		    
+		  </tr>
+		  <tr>
+		    <td>Consignee</td>
+		    <td>Elvin Habibov</td>
+		  </tr>
+		  <tr>
+		    <td>Personal ID NO</td>
+		    <td>994509884386</td>
+		  </tr>
+		  <tr>
+		    <td>Delivery adress</td>
+		    <td>Hasan Aliyev 1d</td>
+		  </tr>
+		  <tr>
+		    <td>Postcode ZIP Code</td>
+		    <td>California</td>
+		  </tr>
+		  <tr>
+		    <td>Country</td>
+		    <td>Azerbaijan</td>
+		  </tr>
+		  <tr>
+		    <td>Phone,fax or Email:</td>
+		    <td>habibov@gmail.com</td>
+		  </tr>
+		</table>
+	</div>
+
+	<div class="col-12 mt2">
+		<table>
+		  <tr>
+		    <th colspan="4">Consignee Contact</th>
+		    
+		  </tr>
+		</table>
+	
+		<div class="col-6 pr1">
+			<table>
+			  
+				<tr>
+					<td>Total Number of Packages</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>Total Gross weight(kg)</td>
+					<td>5,350</td>
+				</tr>
+				<tr>
+					<td>Chargable Volume Weight(kg)</td>
+					<td>5,350</td>
+				</tr>
+				<tr>
+					<td>Transportation Mode</td>
+					<td>By Air</td>
+				</tr>
+				<tr>
+					<td>Shipping Price</td>
+					<td>37,45 USD</td>
+				</tr>
+				<tr>
+					<td>MAWB</td>
+					<td>Fizza Flight</td>
+				</tr>
+				
+
+			</table>
+		</div>
+		<div class="col-6 pl1">
+			<table>
+			  
+				<tr>
+					<td>Date</td>
+					<td>04.04.2019</td>
+				</tr>
+				<tr>
+					<td>Origin</td>
+					<td>JFK</td>
+				</tr>
+				<tr>
+					<td>Destination</td>
+					<td>GYD</td>
+				</tr>
+				<tr>
+					<td>Category</td>
+					<td>Electronics</td>
+				</tr>
+				<tr>
+					<td>Declared Value for Customs</td>
+					<td>44,99 USD</td>
+				</tr>
+				<tr>
+					<td>Full Desciption of contents</td>
+					<td>lorem ipsum dolor</td>
+				</tr>
+				
+
+			</table>
+			
+
+
+		</div>
+
+		
+
+	</div>
+
+	<div class="col-12 mt2" >
+		<table >
+			
+			<tr>
+				<td class="align-center">
+					<img src="./barcode.jpg" alt="">
+				</td>
+			</tr>
+			
+		</table>
+	</div>
+
+	<div class="col-12 mt2" >
+		*İnformation on goods filled in by Consignee or by Fizza on behalf of Consignee
+	</div>
+	
+</body>
+</html>
